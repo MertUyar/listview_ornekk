@@ -92,12 +92,17 @@ class _MainPageState extends State<MainPage> {
                                 Text(
                                   list[index]["name"],
                                   style: TextStyle(
-                                    fontWeight: FontWeight.bold,
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 18,
                                   ),
                                 ),
                                 SizedBox(width: 10,),
                                 Text(
                                   list[index]["time"],
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w400,
+                                  ),
                                 ),
 
                               ],
